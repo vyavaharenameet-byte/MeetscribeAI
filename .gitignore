@@ -1,0 +1,35 @@
+# create .gitignore with recommended content
+@"
+# Python venv and compiled files
+venv/
+fresh_backend/venv/
+__pycache__/
+*.pyc
+
+# Node and build artifacts
+frontend/node_modules/
+frontend/dist/
+dist/
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# App data and outputs
+fresh_backend/uploads/
+fresh_backend/outputs/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# docx/test artifacts
+*.docx
+"@ | Out-File -Encoding utf8 .gitignore -Force
