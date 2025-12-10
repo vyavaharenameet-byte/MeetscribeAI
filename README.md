@@ -4,7 +4,7 @@
 MeetScribeAI is an AI-driven tool that converts **audio recordings → transcript → meeting summary → action tasks → downloadable DOCX**.  
 Built fully using **local, offline-friendly AI models** (Faster-Whisper + NLP), this project ensures accurate transcription and clean summarization without needing paid APIs.
 
-> **Built with ❤️ by NAmeet**
+> **Built with ❤️ by Nameet**
 
 ---
 
@@ -55,6 +55,7 @@ Built fully using **local, offline-friendly AI models** (Faster-Whisper + NLP), 
 ---
 
 # 📂 Project Structure
+
 
 
 
